@@ -43,12 +43,12 @@ npm i five-star --save
 
 ```mjs
 // es6
-import Rating from 'five-star';
+import StarModule from 'five-star';
 ```
 
 ```cjs
 // cjs
-const Rating = require('five-star');
+const StarModule = require('five-star');
 ```
 
 ### Usage examples:

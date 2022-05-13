@@ -2,7 +2,7 @@
  <p align="center">Simple library for 5-star rating.</p>
   <p align="center">
     <a href="https://codecov.io/gh/hebertcisco/5rate-star">
-      <img alt="codecov" src="https://codecov.io/gh/hebertcisco/5rate-star/branch/master/graph/badge.svg?token=5PBW46PS3R" />
+      <img alt="codecov" src="https://codecov.io/gh/hebertcisco/5rate-star/branch/main/graph/badge.svg?token=GBC8TYYOBB" />
     </a>
     <a href="https://github.com/hebertcisco/5rate-star/actions/workflows/npm-publish.yml">
       <img alt="Node.js Package" src="https://github.com/hebertcisco/5rate-star/actions/workflows/npm-publish.yml/badge.svg" />

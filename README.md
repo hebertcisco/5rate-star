@@ -43,12 +43,32 @@ npm i 5rate-star --save
 
 ```mjs
 // es6
-import StarModule from '5rate-star';
+import { Rating, SumRating } from '5rate-star';
+
+let rating;
+let currentRating;
+
+rating = new Rating();
+currentRating = new SumRating([4, 5]).classificationRating;
+
+const result = rating.calculate(currentRating);
+
+console.log(result); // 4.6
 ```
 
 ```cjs
 // cjs
-const StarModule = require('5rate-star');
+const { Rating, SumRating } = require('5rate-star');
+
+let rating;
+let currentRating;
+
+rating = new Rating();
+currentRating = new SumRating([4, 5]).classificationRating;
+
+const result = rating.calculate(currentRating);
+
+console.log(result); // 4.6
 ```
 
 ### Usage examples:

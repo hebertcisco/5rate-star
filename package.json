@@ -1,6 +1,6 @@
 {
   "name": "5rate-star",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Simple library for 5-star rating.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

@@ -45,28 +45,24 @@ npm i 5rate-star --save
 // es6
 import { Rating, SumRating } from '5rate-star';
 
-let rating;
-let currentRating;
+const rating = new Rating();
 
-rating = new Rating();
-currentRating = new SumRating([4, 5]).classificationRating;
+const { classificationRating } = new SumRating([4, 5]);
 
-const result = rating.calculate(currentRating);
+const result = rating.calculate(classificationRating);
 
 console.log(result); // 4.6
 ```
 
 ```cjs
 // cjs
-const { Rating, SumRating } = require('5rate-star');
+const { Rating, SumRating } = require("5rate-star")
 
-let rating;
-let currentRating;
+const rating = new Rating();
 
-rating = new Rating();
-currentRating = new SumRating([4, 5]).classificationRating;
+const { classificationRating } = new SumRating([4, 5]);
 
-const result = rating.calculate(currentRating);
+const result = rating.calculate(classificationRating);
 
 console.log(result); // 4.6
 ```
